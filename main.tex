@@ -1,0 +1,62 @@
+\documentclass[a4paper, 1pt]{article}
+    
+    % LANGUAGE PACKAGES
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+
+
+	% OTHER PACKAGES
+\usepackage[margin=1in]{geometry}
+\usepackage[none]{hyphenat}
+\usepackage{fancyhdr}
+\usepackage{capt-of}
+\usepackage{graphicx,calc}
+\usepackage{graphics}
+\usepackage{float}
+\usepackage{indentfirst}
+
+% HEADER AND FOOOTER
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+\fancyhead[L]{\slshape \MakeUppercase{Projeto SD}}
+\fancyhead[R]{\slshape Sistemas Digitais 2021.2}
+\fancyfoot[C]{\thepage}
+\setlength{\headheight}{52pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\begin{document}
+\begin{titlepage}
+\begin{center}
+\vspace*{1cm}
+\Large{\textbf{Sistemas Digitais 2021.2}\\Professor: Stephan Michael Blawid}\\
+\vfill
+\line(1,0){400}\\[1mm]
+\huge{\textbf{Projeto 2}}\\[3mm]
+\Large{Relatório do projeto proposto pela disciplina}\\[1mm]
+\line(1,0){400}
+\vfill
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.2]{imgs/logo cin-ufpe.png}\\
+    \label{fig:logo}
+\end{figure}
+Por Yves Emmanuel, David Londres, Natan Frederico e Clesson Roberto\\27 de Agosto de 2021
+\end{center}
+\end{titlepage}
+
+
+\setcounter{page}{1}
+
+\begin{section}{Primeira Questão}
+
+\textbf{.A)} Os blocos funcionais do nível 2 são:  timer de minutos/segundos, entrada de timer e controle, controle do magnetron, decodificador/driver de 7 seguimentos.
+
+\textbf{.B)} O \emph{clock} para o temporizador deve ser uma onda de 1 Hz, quando nenhum botão está sendo pressionado.
+
+\textbf{.C)} Quando qualquer botão estiver sendo pressionado, então um sinal de 100 Hz deve ser direcionado para o temporizador.
+\end{section}
+
+
+\end{document}
